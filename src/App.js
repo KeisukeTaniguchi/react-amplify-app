@@ -23,6 +23,7 @@ function App() {
     <div className="App">
       <AmplifySignOut />
       <h2>コンポーネント</h2>
+      <p>テスト</p>
       <p>{user.attributes.email}</p>
     </div>
   ) : (
